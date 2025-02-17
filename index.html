@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Load the JavaScript function "main" stored in the loaded file below -->
+
+<body onload="main()">
+    <!-- Select a JavaScript file -->
+    <script src="p3.js"></script>
+
+    <!-- WebGL Utility Scripts -->
+    <script src="lib/webgl-utils.js"></script>
+    <script src="lib/webgl-debug.js"></script>
+    <script src="lib/cuon-utils.js"></script>
+    <script src="lib/cuon-matrix-quat03.js"></script>
+    <script src="obj.js"></script>
+
+
+    <!-- Setup the Canvas -->
+    <p>
+        <canvas id="webgl" width="650" height="650">
+            Please use a browser that supports "canvas"
+        </canvas>
+        <br/>
+        Press space to switch to orthogonal 
+        <br/>
+        Use the WASD keys to navigate the camera in the XY plane. Use T and Y to navigate the light on the X axis.
+        <br/>
+        Use Z and X to change the angle.
+        <br/>
+        Click and drag up and down anywhere on the screen to move the rod
+    </p>
+
+</body>
+
+</html>
